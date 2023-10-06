@@ -18,7 +18,8 @@ function App(){
  
   function handleSubmit(e){
     return(
-      alert(`Nome Completo: ${data.name} ${data.lastName}
+      alert(`
+      Nome Completo: ${data.name} ${data.lastName}
       Data de Nascimento: ${data.date}
       Endereço: Rua ${data.street}, número ${data.number}
       Bairro: ${data.neighborhood}
