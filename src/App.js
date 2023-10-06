@@ -1,6 +1,7 @@
 import './index.css'
 import Header from './components/Header'
 import { useState } from 'react';
+import styles from './App.module.css'
 
 function App(){
   const [data, setData] = useState({
@@ -31,7 +32,7 @@ function App(){
   return(
     <div>
     <Header title="Informações do visitante"/>
-    <form>
+    <form className={styles.form}>
     <div className="border-b border-gray-900/10 pb-12">
           
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -190,7 +191,7 @@ function App(){
             
           </div>
           <br/>
-          <button onClick={handleSubmit}>Salvar</button>
+          <button className={styles.button} onClick={handleSubmit}>Salvar</button>
         </div>
         
         </form>
