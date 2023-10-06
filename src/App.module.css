@@ -4,8 +4,12 @@
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
-    background-color: lightblue;
-    color: midnightblue;
+    background-color: gray;
+    color: black;
+
+    &:hover{
+        background-color: dimgray;
+    }
 }
 
 
