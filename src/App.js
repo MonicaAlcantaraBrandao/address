@@ -20,7 +20,7 @@ function App(){
     return(
       alert(`Nome Completo: ${data.name} ${data.lastName}
       Data de Nascimento: ${data.date}
-      Endereço: ${data.street}, ${data.number}
+      Endereço: Rua ${data.street}, número ${data.number}
       Bairro: ${data.neighborhood}
       Cidade: ${data.city}
       CEP: ${data.postalCode}
